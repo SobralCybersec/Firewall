@@ -1,0 +1,4 @@
+192.168.1.100 80 2 https://www.youtube.com/watch?v=dQw4w9WgXcQ 0
+10.0.0.50 443 1 - 0
+192.168.*.* 0 1 - 1
+172.16.*.* 8080 2 https://www.youtube.com/watch?v=oHg5SJYRHA0 1

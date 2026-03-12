@@ -1,0 +1,9 @@
+build/
+cmake-build-*/
+*.exe
+*.out
+*.o
+*.a
+firewall.conf
+.idea/
+.vscode/
