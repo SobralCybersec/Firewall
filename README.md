@@ -16,10 +16,14 @@
 
 <h1 align="center">
   <img src="https://i.imgur.com/vSRgNpa.gif" width="30"/>
-  Resumo
+  Resumo e Demonstração:
 </h1>
 
 Sistema de firewall modular em C que permite bloquear, permitir ou redirecionar conexões para URLs customizadas (como vídeos do YouTube). Suporta download automático de listas de IPs maliciosos. Ideal para controle de acesso e redirecionamento de tráfego.
+
+--- 
+
+<img src="https://i.imgur.com/rymUn6p.png">
 
 </div>
 

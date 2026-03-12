@@ -38,11 +38,6 @@ static void show_banner(void) {
 "⠃⠀⢸⣿⠃⢀⡾⠀⠈⣶⣿⠀⡾⠀⠀⡀⣼⡇⠘⣇⠹⠄⣿⡄⢸⣧⣹⠷⣤⣙⡻⠷⣽⣿⣟⡿⢧⣿⣰⡟⣦⠀⠀⠀⠀⠀⡈⡟⡿⢧⠀⠈⠓⠷⢷⣄⣒⣢⢬⣽⣿⠟⠟⠀⠀\n";
 
     printf("\n%s\n", art);
-    printf("        GinTama Firewall v1.0\n");
-    printf("        Firewall em C com Wildcards\n\n");
-    printf("  ╔══════════════════════════════════════════════════════════════╗\n");
-    printf("  ║  Filtragem de Pacotes | Redirecionamento | Logs | Blocklist ║\n");
-    printf("  ╚══════════════════════════════════════════════════════════════╝\n\n");
 }
 
 static void show_menu(void) {
@@ -166,8 +161,6 @@ int main(void) {
     logger_init();
 
     show_banner();
-    printf("  [INFO] GinTama Firewall iniciado\n");
-    printf("  [DICA] Use opcao 5 para carregar configuracao existente\n");
 
     int opt;
     while (1) {
